@@ -29,6 +29,32 @@ body {
   padding: 2.4rem;
 }
 
+/* Target all scrollable elements */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Remove the track (background) */
+::-webkit-scrollbar-track {
+  background: transparent; /* no gray background */
+}
+
+/* Remove arrows on the scrollbar buttons */
+::-webkit-scrollbar-button {
+  display: none; /* hides the up/down arrow buttons */
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Style the thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}
+
 /* ******* */
 
 .nav-bar {
