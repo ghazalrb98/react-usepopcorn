@@ -73,7 +73,7 @@ function Star({ onRate, onHoverIn, onHoverOut, isFull, color, size }) {
     width: `${size}px`,
     height: `${size}px`,
     display: "block",
-    curser: "pointer",
+    cursor: "pointer",
   };
 
   return (
